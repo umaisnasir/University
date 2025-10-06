@@ -10,10 +10,12 @@ int main (void){
     printf("Enter a 4 digit number: ");
     scanf("%d", &num);
 
-    num4=(num/1000)%10; //1
-    num3=(num/100)%10; //2
-    num2=(num/10)%10; //3 
-    num1=num%10; //4
+    num4=(num/1000)%10; // 4
+    num3=(num/100)%10; // 3
+    num2=(num/10)%10; // 2
+    num1=num%10; //1
+
+// // if 4321 is input    
 
     int addition = num1 + num4;
 
