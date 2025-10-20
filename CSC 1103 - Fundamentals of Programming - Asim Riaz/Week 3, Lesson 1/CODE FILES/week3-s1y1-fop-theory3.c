@@ -1,4 +1,4 @@
-// Here 3 is being multiplied with every result.
+// Here 3 is being multiplied with every result!
 #include <stdio.h>
 
 int main()
