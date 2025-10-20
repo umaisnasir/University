@@ -7,4 +7,3 @@ int main(void) {
    printf("Welcome to C Language!\n");
    
 } // end function main 
-
