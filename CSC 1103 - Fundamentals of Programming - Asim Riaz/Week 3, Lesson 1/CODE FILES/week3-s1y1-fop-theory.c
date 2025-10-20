@@ -5,6 +5,7 @@ int main(){
 
     // printf("Enter grade : ");
     // scanf("%d", &grade);
+    // We have commented the above lines because we have already given the input value i.e.69.
 
     if(grade >= 60){
         puts("Passsed");
@@ -12,5 +13,6 @@ int main(){
         puts("Failed");
     }
 
-    // puts(grade >= 60 ? "Passed" : "Failed");
+    // puts(grade >= 60 ? "Passed" : "Failed"); 
+    // We can use the above command instead of the whole if statement.
 }
