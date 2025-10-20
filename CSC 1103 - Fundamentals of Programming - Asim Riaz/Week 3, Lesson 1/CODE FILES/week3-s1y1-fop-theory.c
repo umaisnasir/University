@@ -15,4 +15,5 @@ int main(){
 
     // puts(grade >= 60 ? "Passed" : "Failed"); 
     // We can use the above command instead of the whole if statement.
+    
 }
