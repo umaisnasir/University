@@ -1,10 +1,12 @@
-    #include <stdio.h>
+// Here 3 is being multiplied with every result.
+#include <stdio.h>
 
-    int main()
+int main()
+{
+    int product = 3;
+    while (product <= 100)
     {
-        int product = 3;
-        while (product <= 100)
-        {
-            product = 3 * product;
-        }
+        printf("%d\n", product);
+        product = 3 * product;  
     }
+}
